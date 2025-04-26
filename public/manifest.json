@@ -1,0 +1,49 @@
+{
+  "background_color": "#070718",
+  "description": "DinamikUp Web Site",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "DinamikUp-Web",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "short_name": "DinamikUp-Web",
+  "start_url": "/",
+  "theme_color": "#a82925",
+  "prefer_related_applications": false,
+  "display_override": [
+    "window-controls-overlay",
+    "standalone",
+    "fullscreen"
+  ],
+  "launch_handler": {
+    "client_mode": [
+      "focus-existing",
+      "auto"
+    ]
+  },
+  "icons": [
+    {
+      "src": "img/icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "img/Screenshot_6.jpg",
+      "sizes": "371x815",
+      "type": "image/jpg"
+    }
+  ],
+  "id": "/",
+  "lang": "en",
+  "categories": [
+    "business",
+    "finance",
+    "productivity"
+  ],
+  "edge_side_panel": {
+    "preferred_width": 600
+  }
+}
